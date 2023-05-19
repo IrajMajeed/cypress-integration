@@ -1,0 +1,22 @@
+{
+  "name": "cypress-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --spec cypress/e2e/spec.cy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrajMajeed/cypress-integration.git"
+  },
+  "author": "Iraj Majeed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrajMajeed/cypress-integration/issues"
+  },
+  "homepage": "https://github.com/IrajMajeed/cypress-integration#readme",
+  "dependencies": {
+    "cypress": "^12.12.0"
+  }
+}
